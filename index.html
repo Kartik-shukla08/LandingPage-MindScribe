@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindScribe | Private Journaling & Voice Reflection</title>
+    <meta name="description" content="MindScribe is a private mental health companion for gentle journaling, voice therapy-style conversations, and personal insights—right on your desktop.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header animate-on-load">
+        <div class="container nav-container">
+            <div class="logo">MindScribe</div>
+            <nav class="main-nav">
+                <a href="#features">Why MindScribe</a>
+                <a href="#privacy">Privacy First</a>
+                <a href="#download" class="btn btn-primary">Download</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="container hero-grid">
+                <div class="hero-content animate-left">
+                    <h1>A Gentle Space to Talk, Journal, and Breathe</h1>
+                    <p>MindScribe is your quiet corner for daily journaling, voice therapy-style reflections, and checking in with yourself—without pressure, performance, or judgment.</p>
+                    <div class="hero-actions">
+                        <a href="#download" class="btn btn-primary">Download for Windows</a>
+                        <a href="#features" class="btn btn-secondary">Learn More</a>
+                    </div>
+                    <div class="meta-info">
+                        <span>Guided Journaling</span> • <span>Private Voice Reflections</span> • <span>100% Offline</span>
+                    </div>
+                </div>
+                <div class="hero-image animate-right">
+                    <img src="image.png" alt="Abstract brain tree artwork" class="floating-asset">
+                </div>
+            </div>
+        </section>
+
+        <section class="experience-section section-padding">
+            <div class="container">
+                <h2 class="section-title text-center fade-up">Experience Your Sanctuary</h2>
+                <div class="experience-grid">
+                    <div class="video-wrapper fade-up delay-1">
+                        <div class="video-placeholder">
+                            <video
+                                id="experience-video"
+                                class="experience-video"
+                                autoplay
+                                muted
+                                loop
+                                preload="metadata"
+                                poster="https://placehold.co/800x450/E8DBC8/06264C?text=MindScribe+Preview"
+                            >
+                                <source src="videos/experience-1.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="steps-wrapper fade-up delay-2">
+                        <div class="step-item" data-video="videos/experience-1.mp4" data-poster="https://placehold.co/800x450/E8DBC8/06264C?text=MindScribe+Step+1">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h3>Speak Your Mind, Your Way</h3>
+                                <p>Journal in your own words—through text or voice—about what felt heavy, hopeful, or confusing today.</p>
+                            </div>
+                        </div>
+                        <div class="step-item" data-video="videos/experience-2.mp4" data-poster="https://placehold.co/800x450/E8DBC8/06264C?text=MindScribe+Step+2">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h3>Have a Calm, Guided Conversation</h3>
+                                <p>MindScribe responds with gentle prompts and reflections, helping you untangle thoughts like you might in a voice therapy session.</p>
+                            </div>
+                        </div>
+                        <div class="step-item" data-video="videos/experience-3.mp4" data-poster="https://placehold.co/800x450/E8DBC8/06264C?text=MindScribe+Step+3">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h3>See Patterns and Small Wins</h3>
+                                <p>Look back through private reports and dashboards that highlight moods, themes, and small steps forward over time.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features-section section-padding">
+            <div class="container">
+                <h2 class="section-title text-center fade-up">Why MindScribe?</h2>
+                <p class="section-subtitle text-center fade-up">Created to support your mental wellbeing with gentle journaling, therapy-inspired conversations, and honest, private self-reflection.</p>
+                
+                <div class="features-grid">
+                    <div class="feature-card fade-up delay-1">
+                        <div class="icon-wrapper" aria-hidden="true">
+                            <svg class="feature-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 21H16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                                <path d="M12 17V21" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                                <rect x="3" y="4" width="18" height="13" rx="2" stroke="currentColor" stroke-width="1.8"/>
+                                <path d="M7 8H17" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h3>Guided Journaling & Voice Notes</h3>
+                        <p>Capture your thoughts in text or voice, then receive gentle prompts that help you name feelings, notice triggers, and process your day.</p>
+                    </div>
+                    <div class="feature-card fade-up delay-2">
+                        <div class="icon-wrapper" aria-hidden="true">
+                            <svg class="feature-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3 14.5C3.9 10.5 7.6 7.5 12 7.5C14.1 7.5 16 8.2 17.5 9.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                                <path d="M21 14.5C20.1 18.5 16.4 21.5 12 21.5C9.9 21.5 8 20.8 6.5 19.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                                <path d="M2.5 2.5L21.5 21.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h3>Calm, Therapy-Inspired Space</h3>
+                        <p>Talk through what’s on your mind in a low-pressure space that is always available, always patient, and never judgmental.</p>
+                    </div>
+                    <div class="feature-card fade-up delay-3">
+                        <div class="icon-wrapper" aria-hidden="true">
+                            <svg class="feature-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="11" cy="11" r="6" stroke="currentColor" stroke-width="1.8"/>
+                                <path d="M20 20L16.8 16.8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                                <path d="M8.5 11H13.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                                <path d="M11 8.5V13.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h3>Private Reports & Dashboards</h3>
+                        <p>Explore mood overviews, journaling streaks, and themes that come up often&mdash;all visualized on your device and never shared.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="privacy" class="privacy-section section-padding">
+            <div class="container privacy-grid">
+                <div class="privacy-visual fade-up">
+                    <div class="lock-illustration" aria-hidden="true">
+                        <div class="privacy-token">
+                            <div class="privacy-ring"></div>
+                            <div class="privacy-core"></div>
+                            <div class="privacy-orbit"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="privacy-content fade-up delay-1">
+                    <h2 class="section-title">We Have Nothing to Hide</h2>
+                    <p>MindScribe is designed first for your emotional safety, then for your data safety. It is a place to be honest with yourself without worrying who might be listening.</p>
+                    <p>Your entries, voice notes, and reports live only on your computer. They are processed on your device, encrypted, and never sent to a remote server.</p>
+                    <p class="highlight-text">Your story, your pace, your private sanctuary.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="download" class="cta-section section-padding text-center fade-up">
+            <div class="container">
+                <h2 class="section-title">Ready to Start Your Private Journaling Ritual?</h2>
+                <p class="section-subtitle">Download MindScribe and begin a gentle, recurring check-in with yourself&mdash;through words, voice, and clear, private insights.</p>
+                <a href="#" class="btn btn-primary btn-large">Download Now for Windows</a>
+            </div>
+        </section>
+
+        <section class="support-section section-padding">
+            <div class="container">
+                <div class="support-heading text-center fade-up">
+                    <h2 class="section-title">Clarity & Support</h2>
+                    <p>Answers upfront, and a direct line if you need help.</p>
+                </div>
+                <div class="support-grid">
+                    <div class="faq-wrapper fade-up delay-1">
+                        <div class="faq-item">
+                            <button class="faq-question">Who is MindScribe for? <span class="toggle-icon">+</span></button>
+                            <div class="faq-answer">
+                                <p>MindScribe is for anyone who wants a private place to journal, unpack their day, or talk things through at their own pace. It can complement therapy, self-help, or your existing routines, but it is not a crisis service.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <button class="faq-question">Is MindScribe a replacement for therapy? <span class="toggle-icon">+</span></button>
+                            <div class="faq-answer">
+                                <p>No. MindScribe is a self-reflection and journaling companion, not a licensed clinician. It can help you notice patterns and express feelings, but it cannot diagnose, treat, or handle emergencies. If you are in crisis, please reach out to local emergency services or a qualified professional.</p>
+                            </div>
+                        </div>
+                         <div class="faq-item">
+                            <button class="faq-question">How is my data actually kept private? <span class="toggle-icon">+</span></button>
+                            <div class="faq-answer">
+                                <p>Your data is stored locally on your hard drive rather than in the cloud. Processing happens on your device, and your entries are encrypted and owned entirely by you.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-wrapper fade-up delay-2">
+                        <h3>Have questions? Let's talk.</h3>
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" placeholder="Tell us your name">
+                            </div>
+                             <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" placeholder="your@email.com">
+                            </div>
+                             <div class="form-group">
+                                <label for="message">Your Thoughts</label>
+                                <textarea id="message" rows="4" placeholder="How can we help?"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                            <p class="form-status" aria-live="polite"></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-col brand-col">
+                <div class="logo">MindScribe</div>
+                <p>Your private sanctuary on the desktop.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Product</h4>
+                <ul>
+                    <li><a href="#download">Download</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#">Roadmap</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#">GitHub Repo</a></li>
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container copyright text-center">
+            <p>© 2026 MindScribe. Built with empathy.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
